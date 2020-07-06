@@ -15,4 +15,8 @@ func (c *SysUserController) LoginForm() {
 func (c *SysUserController) LoginAction() {
 	username := c.Ctx.Request.Form.Get("username")
 	fmt.Println(username)
+<<<<<<< HEAD
+=======
+
+>>>>>>> d6221628a0020094f12082f8625f17b75cf8a2b5
 }
