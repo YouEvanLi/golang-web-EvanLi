@@ -15,5 +15,4 @@ func (c *SysUserController) LoginForm() {
 func (c *SysUserController) LoginAction() {
 	username := c.Ctx.Request.Form.Get("username")
 	fmt.Println(username)
-
 }
